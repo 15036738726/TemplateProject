@@ -27,6 +27,9 @@ public class UserController {
     // fuq_test02分支提交的代码,14:35
     private String fuq_1435;
 
+    // fuq_test01
+    private String fuq_1449;
+
 
     @Autowired
     private ParamInit paramInit;
