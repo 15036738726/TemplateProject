@@ -15,6 +15,9 @@ import java.util.Map;
 @RequestMapping("/user")
 public class UserController {
 
+    // fuq_test01分支提交的代码
+    private String fuq_test01;
+
     @Autowired
     private ParamInit paramInit;
 
