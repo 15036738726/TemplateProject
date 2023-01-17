@@ -17,6 +17,9 @@ import java.util.Map;
 @Component
 public class ParamInit implements ApplicationRunner {
 
+    // fuq-test01分支提交的代码,14:16
+    private String fuq_1416;
+
     @Autowired
     private Environment environment;
 
