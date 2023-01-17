@@ -5,7 +5,6 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,6 +20,8 @@ public class ParamInit implements ApplicationRunner {
     private String fuq_1416;
     // fuq_test02分支提交的代码,14:35
     private String fuq_1435;
+    // fuq_test01
+    private String fuq_1449;
 
     @Autowired
     private Environment environment;
