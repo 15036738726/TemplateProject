@@ -15,6 +15,9 @@ import java.util.Map;
 @RequestMapping("/user")
 public class UserController {
 
+    // 15:25提交,李四新增 分支名:fuq_test02
+    private String fuq02;
+
     @Autowired
     private ParamInit paramInit;
 
