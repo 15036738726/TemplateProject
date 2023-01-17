@@ -22,6 +22,8 @@ public class ParamInit implements ApplicationRunner {
     private String fuq_1435;
     // fuq_test01
     private String fuq_1449;
+    // fuq_test02
+    private String fuq_1456;
 
     @Autowired
     private Environment environment;
