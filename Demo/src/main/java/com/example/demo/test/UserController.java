@@ -15,9 +15,6 @@ import java.util.Map;
 @RequestMapping("/user")
 public class UserController {
 
-    // 1.28 15:28,张三提交测试 分支名:fuq_test01
-    // 1.28 16:56,李四提交测试 分支名:fuq_test02
-
     @Autowired
     private ParamInit paramInit;
 
