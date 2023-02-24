@@ -16,6 +16,7 @@ import java.util.Map;
 @Component
 public class ParamInit implements ApplicationRunner {
 
+
     @Autowired
     private Environment environment;
 
