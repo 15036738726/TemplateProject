@@ -1,21 +1,7 @@
-server:
-  port: 9090
-
+#º§ªÓ≈‰÷√
 spring:
-  datasource:
-    driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@localhost:1521:orcl
-    username: bxfundacc
-    password: bxfundacc
-
-#spring:
-#  datasource:
-#    username: root
-#    password: root
-#    driver-class-name: com.mysql.jdbc.Driver
-#    #driver-class-name: com.mysql.cj.jdbc.Driver
-#    url: jdbc:mysql://localhost:3306/forum?characterEncoding=utf8&serverTimezone=UTC
-
+  profiles:
+    active: dev
 
 
 

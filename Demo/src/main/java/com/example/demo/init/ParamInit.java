@@ -16,11 +16,6 @@ import java.util.Map;
 @Component
 public class ParamInit implements ApplicationRunner {
 
-    // 15:25提交,李四新增 分支名:fuq_test02
-    private String fuq02;
-
-    // 15:36提交,张三新增 分支名:fuq_test01
-    private String fuq01;
 
     @Autowired
     private Environment environment;
