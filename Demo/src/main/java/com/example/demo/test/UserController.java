@@ -14,13 +14,9 @@ import java.util.Map;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-    // main 14:14
-    // fuqiang 14:16
 
     @Autowired
     private ParamInit paramInit;
-    // main 14:17
-    // mian 14:25
 
     @RequestMapping("/query")
     @ResponseBody
