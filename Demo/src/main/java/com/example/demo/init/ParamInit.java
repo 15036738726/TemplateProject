@@ -15,6 +15,7 @@ import java.util.Map;
 
 @Component
 public class ParamInit implements ApplicationRunner {
+    // 变基测试
 
     @Autowired
     private Environment environment;
