@@ -15,6 +15,7 @@ import java.util.Map;
 
 @Component
 public class ParamInit implements ApplicationRunner {
+    // 完成了fuq_test01开发 将来把代码推送到远程,是需要根main合并的
 
 
     @Autowired
